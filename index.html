@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css" integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+  <!--navbar-->
+    <nav class="animate__animated animate__fadeInRight">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        
+        <div class="nav1">
+            <form class="search-bar" action="">
+                <input class="search-input" required="" name="search" type="search" autocomplete="off">
+                <button type="submit" class="search-btn">
+                    <span>Search</span>
+                </button>
+            </form>
+        </div>
+        <ul>
+            <li class="li1"><a href="https://jevelin.shufflehound.com/hello/">Jevelin</a></li>
+            <li class="li2"><a href="https://jevelin.shufflehound.com/shop3/cart/"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Home
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://jevelin.shufflehound.com/architect/">Architect</a>
+                <a href="https://jevelin.shufflehound.com/medical/">Medical</a>
+                <a href="https://jevelin.shufflehound.com/fashion-shop/">Fashion shop</a>
+                <a href="https://jevelin.shufflehound.com/beauty/">Beauty</a>
+                <a href="https://jevelin.shufflehound.com/startup/">Startup</a>
+                <a href="https://jevelin.shufflehound.com/autospot/">Autospot</a>
+              </div>
+            </li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Blog
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://jevelin.shufflehound.com/blog/blog-categories/">Categories</a>
+                <a href="https://jevelin.shufflehound.com/blog/blog-mix/">Mix</a>
+                <a href="https://jevelin.shufflehound.com/author/shufflehound/">Author page</a>
+                <a href="https://jevelin.shufflehound.com/blog/blog-masonry-2-0/">Masonary</a>
+                <a href="https://jevelin.shufflehound.com/blog/blog-grid/">Grid standard</a>
+                <a href="https://jevelin.shufflehound.com/blog/blog-small-images/">Small images</a>
+              </div>
+            </li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Portfolio
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://jevelin.shufflehound.com/portfolio-page/trendy/">Trendy</a>
+                <a href="https://jevelin.shufflehound.com/portfolio-page/gallery/">Gallery</a>
+                <a href="https://jevelin.shufflehound.com/portfolio-page/overlay/">Overlays</a>
+                <a href="https://jevelin.shufflehound.com/portfolio-page/portfolio-pagination/">Pagination</a>
+                <a href="https://jevelin.shufflehound.com/portfolio-page/marginless-gallery/">Marginless</a>
+                <a href="https://jevelin.shufflehound.com/portfolio-page/portfolio-minimalistic/">Minimalistic</a>
+              </div>
+            </li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Shop
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://jevelin.shufflehound.com/shop3/">Shop layout</a>
+                <a href="https://jevelin.shufflehound.com/shop3/cart/">Cart</a>
+                <a href="https://jevelin.shufflehound.com/shop3/cart/">Checkout</a>
+              </div>
+            </li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Variations
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://jevelin.shufflehound.com/header/first-header/">First header</a>
+                <a href="https://jevelin.shufflehound.com/header/sixth-header/">second header</a>
+                <a href="https://jevelin.shufflehound.com/blank/">Blank</a>
+                <a href="https://jevelin.shufflehound.com/pages/no-title/">No title</a>
+                <a href="https://jevelin.shufflehound.com/pages/faq/">FAQ</a>
+              </div>
+            </li>
+            <li><div class="dropdown">
+              <button class="dropbtn">Elements
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://jevelin.shufflehound.com/elements/alert-messages/">Alert messages</a>
+                <a href="https://jevelin.shufflehound.com/elements/icons/">Icons</a>
+                <a href="https://jevelin.shufflehound.com/elements/counter/">Counter</a>
+                <a href="https://jevelin.shufflehound.com/elements/pie-chart/">Pie chart</a>
+                <a href=""></a>
+                <a href=""></a>
+              </div>
+            </li>
+        </ul>
+    </nav>
+
+
+    <!--section1-->
+    <div class="section1">
+      <div class="section1a animate__animated animate__rotateInDownLeft"><span>POLISHED</span> WITH CARE & PRECISION</div>
+      <div class="section1b">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    </div>
+
+    <!--section2-->
+    <div class="section2">
+      <div class="section2a animate__animated animate__fadeInLeft">
+      <div class="el2a">Send us a message</div>
+      <div class="el2b">SUBMIT YOUR PROJECT HERE & WE'LL CONTACT YOU</div>
+      <div class="el2c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolorum, aliquam fugiat quam nam amet fuga nihil doloremque temporibus at quos dolor? At dolore architecto, nihil ducimus sed molestiae suscipit!</div>
+      <form>
+        <label for="Name">Name:</label><br>
+        <input type="text"><br><br>
+        <label for="E-mail">E-mail:</label><br>
+        <input type="email"><br><br>
+        <label for="Message">Message:</label><br>
+        <textarea id="msg" name="user_message"></textarea><br><br>
+        <button type="submit">SEND REQUEST</button>
+      </form>
+      </div>
+
+      <div class="section2b animate__animated animate__fadeInRight"><img src="assets/phone.jpg" alt=""></div>
+  </div>
+
+  <!--section3-->
+  <div class="section3">
+    <p class="p2">Services</p>
+    <h1>TABS WITH ICONS</h1>
+</div>
+
+
+<!--section4-->
+<div class="section4">
+  <div class="section4a">
+    <div>
+      <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+      <div>RESPONSIVE</div>
+    </div>
+
+    <div>
+      <div class="icon"><i class="fa-solid fa-paint-roller"></i></div>
+      <div>VISUAL ART</div>
+    </div>
+
+    
+    <div>
+      <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+      <div>SUPPORT</div>
+    </div>
+
+    <div>
+      <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+      <div>GROW</div>
+    </div>
+
+    <div>
+      <div class="icon"><i class="fa-solid fa-infinity"></i></div>
+      <div>UNLIMITED</div>
+    </div>
+
+  </div>
+
+  <div class="section4b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure, obcaecati ipsum minus consequuntur eum nam recusandae aliquid harum adipisci suscipit consectetur? Quidem porro tenetur harum ab sequi enim esse.</div>
+</div>
+
+
+<!--section5-->
+<div class="section5">
+  <div class="section5a animate__animated animate__fadeInLeft">
+
+   <div class="el6a">
+     <div class="el6aa">
+     <h3>Clean Design</h3>
+     <i class="fa-solid fa-scissors"></i>
+   </div> 
+   <div class="el6ab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non temporibus nulla eius ea quidem impedit ab ipsa aspernatur laboriosam esse, corporis omnis voluptatibus perferendis sed consectetur magni alias ad at.</div>
+   </div>
+
+   <div class="el6a">
+     <div class="el6aa">
+         <h3>Fully Responsive</h3>
+         <i class="fa-solid fa-mobile"></i>
+     </div>
+     <div class="el6ab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic beatae asperiores repudiandae at velit accusamus a, fuga veniam dignissimos unde, labore necessitatibus dolore libero consequatur temporibus nostrum doloremque ea.</div>
+   </div>
+
+   <div class="el6a">
+     <div class="el6aa">
+         <h3>Customizable</h3>
+         <i class="fa-solid fa-fire-extinguisher"></i>
+     </div>
+     <div class="el6ab">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ducimus, deleniti alias quibusdam voluptatibus, consectetur perferendis natus quis est quos dicta itaque consequuntur voluptas animi. Dolores quo necessitatibus consequatur quasi.</div>
+   </div>
+         
+ </div>
+
+  <div class="section5b animate__animated animate__zoomIn"><img src="assets/Home_4_mockup_2.png"></div>
+
+  <div class="section5a animate__animated animate__fadeInRight">
+     <div class="el6a">
+         <div class="el6aa">
+             <i class="fa-solid fa-infinity"></i>
+         <h3>Multi Purpose</h3>
+       </div> 
+       <div class="el6ba">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non temporibus nulla eius ea quidem impedit ab ipsa aspernatur laboriosam esse, corporis omnis voluptatibus perferendis sed consectetur magni alias ad at.</div>
+       </div>
+ 
+       <div class="el6a">
+         <div class="el6aa">
+             <i class="fa-solid fa-cloud-bolt"></i>
+             <h3>Light & Fast them</h3>
+         </div>
+         <div class="el6ba">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt hic beatae asperiores repudiandae at velit accusamus a, fuga veniam dignissimos unde, labore necessitatibus dolore libero consequatur temporibus nostrum doloremque ea.</div>
+       </div>
+ 
+       <div class="el6a">
+         <div class="el6aa">
+             <i class="fa-solid fa-wand-sparkles"></i>
+             <h3>One Click Install</h3>
+         </div>
+         <div class="el6ba">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo ducimus, deleniti alias quibusdam voluptatibus, consectetur perferendis natus quis est quos dicta itaque consequuntur voluptas animi. Dolores quo necessitatibus consequatur quasi.</div>
+       </div>                
+  </div>
+ </div>
+
+
+ <!--section6-->
+ <div class="section6">
+  <div class="section6a">
+     <p class="p5">Our Work</p>
+     <h1>IMAGE GALLERY</h1>
+  </div>
+  <div class="section6b">
+     <p class="p3"><span>M</span>aecenas pretium dignissim varius. Aliquam sed metus accumsan, dapibus ante sed, dapibus tellus. Donec pharetra aliquam facilisis. Vestibulum est odio, vulputate a risus eget, facilisis iaculis sapien. Nullam rutrum nunc et molestie porta. Phasellus pharetra ornare vehicula.</p>
+     <p class="p4"><span>L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus elit a mi finibuacilisis. Nulla sit amet erat tortor. Morbi ultrices tristique nisl in ultrices. Pellentesque tortor elit, condimentum laoreet lorem in, tempor viverra sem. Aliquam erat volutpat.</p>
+  </div>
+  </div>
+
+  <!--section7-->
+  <div class="section7">
+    <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img src="assets/imagea.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="assets/imageb.webp" alt="">
+        </div>
+        <div class="item">
+          <img src="assets/pexels-souvenirpixels-417074.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="assets/imaged.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="assets/imagee.jpg" alt="">
+        </div>
+        <div class="item">
+          <img src="assets/imagef.avif" alt="">
+        </div>
+       
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+        loop:false,
+        margin:10,
+        nav:true,
+        dots:false,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+       </script>
+</div>
+
+
+<!--section8-->
+<div class="section8 animate__animated animate__fadeInLeftBig">
+  <p class="p6">MULTI PURPOSE WORDPRESS THEME <span>IN YOUR POCKET</span></p>
+  <p class="p7">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <button>
+    <p><i class="fa-solid fa-key"></i>
+    BUY THEME</p>
+</button>
+<div class="section8a">
+    <img src="assets/computer.png" alt="">
+</div>
+</div>
+
+
+<!--section9-->
+<div class="section9">
+  <div class="section9a">
+      <div class="first">
+        <div class="hours-making odometer">0</div>
+        <div class="text">Hours making</div>
+      </div>
+      <div class="first">
+        <div class="soft-drinks odometer">0</div>
+        <div class="text">Soft drinks</div>
+      </div>
+      <div class="first">
+        <div class="options odometer">0</div>
+        <div class="text">Options</div>
+      </div>
+      <div class="first">
+        <div class="layers-made odometer">0</div>
+        <div class="text">Layers made</div>
+      </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+    <script>
+      const createOdometer = (el, value) => {
+        const odometer = new Odometer({
+          el: el,
+          value: 0,
+        });
+        odometer.update(value);
+      };
+  
+  
+      const hoursmaking = document.querySelector(".hours-making");
+      createOdometer(hoursmaking, 562);
+  
+      const softdrinks = document.querySelector(".soft-drinks");
+      createOdometer(softdrinks, 78);
+  
+      const options = document.querySelector(".options");
+      createOdometer(options, 100);
+  
+      const layersmade = document.querySelector(".layers-made");
+      createOdometer(layersmade, 2541);
+    </script>
+</div>
+
+<!--section10-->
+<div class="section10">
+  <div class="section10a">
+      Duis semper mauris vitae purus rhoncus suscipit. Nunc dictum dapibus tellus, at viverra risus pharetra id. Nulla facilisi. Ut mollis et augue non gravida. Sed ipsum urna, venenatis ut vehicula nec, ultrices quis sapien.
+  </div>
+
+  <div class="section10b">
+     <div class="el12">
+      <div class="el12a"><i class="fa-regular fa-address-book"></i></div>
+      <div class="el12b">County, Street name - number</div>
+     </div>
+
+     <div class="el12">
+      <div class="el12a"><i class="fa-solid fa-phone"></i></div>
+      <div class="el12b">032 267 899 442</div>
+     </div>
+
+     <div class="el12">
+      <div class="el12a"><i class="fa-regular fa-envelope"></i></div>
+      <div class="el12b">company@name.com</div>
+     </div>
+
+     <div class="el12">
+      <div class="el12a"><i class="fa-regular fa-clock"></i></div>
+      <div class="el12b">Mon.-Fri.: 10-20 Sun.: 12-16</div>
+     </div>
+  </div>
+
+  <div class="section10c">
+      <div class="el13">
+          <div class="el13a">
+              <img src="assets/dog.webp" alt="">
+          </div>
+          <div class="el13b">
+              <p class="p8"><a href="https://jevelin.shufflehound.com/category/travel/">TRAVEL</a>, <a href="https://jevelin.shufflehound.com/category/uncategorized/">UNCATEGORIZED</a></p>
+              <p class="p9">The team watchers</p>
+          </div>
+      </div>
+
+      <div class="el13">
+          <div class="el13a">
+              <img src="assets/book.jpg" alt="">
+          </div>
+          <div class="el13b">
+              <p class="p8"><a href="">TRAVEL</a>,<a href="https://jevelin.shufflehound.com/category/design/"> DESIGN</a></p>
+              <p class="p9">Creative day off</p>
+          </div>
+      </div>
+
+      <div class="el13">
+          <div class="el13a">
+              <img src="assets/rose.jpeg" alt="">
+          </div>
+          <div class="el13b">
+              <p class="p8"><a href="">TRAVEL</a>,<a href="https://jevelin.shufflehound.com/category/news/"> NEWS</a></p>
+              <p class="p9">The smell of roses</p>
+          </div>
+      </div>
+  </div>
+
+  <div class="section10d">
+      <div><a href="https://jevelin.shufflehound.com/project/riding-the-waves/"><img src="assets/bottles.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/its-the-coast/"><img src="assets/bag.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/the-green-road/"><img src="assets/paper.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/pilot-in-the-sky/"><img src="assets/paperbook.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/vintage-typewriter/"><img src="assets/sketchbook.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/multitasking-at-work/"><img src="assets/layer paper.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/the-rising-hound/"><img src="assets/lap.jpg" alt=""></a></div>
+      <div><a href="https://jevelin.shufflehound.com/project/wind-at-white-castle/"><img src="assets/frame.jpg" alt=""></a></div>
+  </div>
+</div>
+
+
+<!--footer-->
+<footer>
+  <p><span>Jevelin</span>
+WordPress Theme built by Shufflehound.</p>
+</footer>
+</body>
+
+</html>
